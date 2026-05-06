@@ -1,71 +1,78 @@
----
-description: Stake $MGNT. Choose your polarity. Earn more — never less.
----
-
 # Magnetic Staking
 
-Magnetic Staking is the mechanism by which $MGNT holders activate their polarity amplifier — choosing between pMGNT (positive polarity) or nMGNT (negative polarity) based on their conviction and time horizon.
+Magnetic Staking is how $MGNT holders unlock their full earning potential. By staking $MGNT and choosing a polarity derivative (pMGNT or nMGNT), holders add a Polarity Amplifier to their existing earnings — without ever sacrificing their base $MGNT position.
 
-## The Core Principle: Double-Up, Never a Sacrifice
+> **Staking is always double-up, never a sacrifice.**
 
-Staking $MGNT is **always additive**. You never give up your existing earnings position to gain a new one.
+---
+
+## How It Works
+
+When you stake $MGNT, you choose to receive either **pMGNT** (positive polarity) or **nMGNT** (negative polarity) as your derivative. You also set a **lock duration** between 7 days and 4 years.
+
+The longer you lock, the higher your amplifier weight multiplier.
+
+### Staking Interface
+
+Available at [mgntfinance.com/staking](https://mgntfinance.com/staking)
+
+- Select **pMGNT** or **nMGNT** as your reward token
+- Enter the amount of $MGNT to stake
+- Set your lock duration (7 days → 4 years)
+- Approve and stake
+
+> **Note:** pMGNT and nMGNT minting opens in Season 2. The staking interface is built and ready.
+
+---
+
+## Earnings Breakdown
+
+Staking never removes your existing $MGNT earnings. It adds to them:
 
 | Position | Base Layer | Swap Fee Amplifier | Polarity Amplifier |
-|----------|-----------|-------------------|-------------------|
+|----------|------------|-------------------|-------------------|
 | Unstaked $MGNT | ✅ | ✅ | ❌ |
-| Staked → pMGNT | ✅ | ✅ | ✅ (LP yield) |
-| Staked → nMGNT | ✅ | ✅ | ✅ (Treasury yield) |
+| Staked → pMGNT | ✅ | ✅ | ✅ LP yield |
+| Staked → nMGNT | ✅ | ✅ | ✅ Treasury yield |
 
-There is no wrong choice — only a different one.
+All three earnings sources vest per weekly Magnetic Epoch. To receive a full epoch's earnings, your stake must be active through the snapshot.
 
-## How to Stake
-
-1. Navigate to **mgntfinance.com/staking** (available in Season 2)
-2. Enter the amount of $MGNT you want to stake
-3. Select your **Reward Type** — pMGNT or nMGNT
-4. Set your **Lock Duration** — from 7 days up to 4 years
-5. Approve and stake
-
-Your $MGNT is locked for the duration you choose. In return, you receive the polarity derivative token and begin accruing polarity amplifier rewards on top of your existing base layer and swap fee amplifier earnings.
+---
 
 ## Lock Duration and Amplifier Weight
 
-Lock duration multiplies your amplifier weight. The longer you commit, the more you earn per epoch.
+Lock duration multiplies your Polarity Amplifier weight. Longer locks earn proportionally more from their amplifier source:
 
-| Lock Period | Relative Amplifier Weight |
-|------------|--------------------------|
-| 7 days | Base |
-| 30 days | Higher |
-| 90 days | Higher still |
-| 1 year | Significantly higher |
+| Duration | Amplifier Weight |
+|----------|-----------------|
+| 7 days | 1× |
+| 30 days | ~1.3× |
+| 90 days | ~1.8× |
+| 1 year | ~3× |
 | 4 years | Maximum |
 
-Exact multipliers are calibrated at Season 2 launch based on protocol parameters.
+Exact multipliers are set at protocol launch. These ranges are illustrative.
 
-## Earning Conditions
-
-Earnings vest only if you remain staked through the **full weekly epoch snapshot**. If you unstake mid-epoch, you do not receive that epoch's polarity amplifier distribution. Base layer earnings are unaffected.
+---
 
 ## Choosing Your Polarity
 
 **Choose pMGNT if:**
-* You believe swap volume will grow
-* You want frequent, claim-able weekly rewards
-* You prefer the yield character of trading activity
-* You are comfortable with a lower transfer burn (1%)
+- You want frequent yield accrual from LP and swap volume
+- You're bullish on protocol activity and transaction volume
+- You prefer cash-flow-style rewards over long-duration scarcity plays
 
 **Choose nMGNT if:**
-* You believe in long-duration compounding
-* You want maximum deflationary pressure on your holdings
-* You prefer the yield character of diversified treasury returns
-* You are willing to hold longer for greater scarcity premium
+- You want aggressive supply deflation to compound your position's value
+- You're bullish on long-duration treasury yield compounding
+- You prefer scarcity-driven value appreciation over frequent distributions
 
-Both tokens earn base layer + swap fee amplifier. The polarity amplifier is the differentiator.
+Either way, you keep your $MGNT base layer earnings and your swap fee amplifier. The polarity choice is purely additive upside.
 
-## Season 2
+---
 
-Magnetic Staking — including pMGNT and nMGNT minting — launches in **Season 2**, following the $MGNT TGE. Season 1 is focused on mgntSOL staking and building the community foundation through the Genesis Points campaign.
+## Unstaking
 
-{% hint style="info" %}
-**Telegram:** [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
-{% endhint %}
+Staked $MGNT unlocks at the end of your chosen lock duration. Early unstaking is not available — this protects epoch snapshot integrity and ensures the protocol can accurately distribute amplifier rewards.
+
+Your unlock date is displayed in the staking interface at the time of staking.

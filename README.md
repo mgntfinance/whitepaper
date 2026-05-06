@@ -1,58 +1,48 @@
+# Magnet Finance
+
+> **Attract Yield. Repel Risk.**
+
+Magnet Finance is the first protocol to match revenue character to token character — three revenue streams, three token polarities, one unified deflationary outcome. Every participant earns from the protocol in the way that matches their conviction.
+
 ---
-description: The first protocol to match revenue character to token character — three streams, three polarities, one deflationary outcome.
----
-
-# Introduction
-
-{% hint style="info" %}
-**Attract Yield. Repel Risk.**
-{% endhint %}
-
-Magnet Finance is a multi-revenue, community-owned deflationary DeFi protocol built natively on Solana. Three revenue streams. Three token polarities. One unified deflationary outcome — and every participant earns from the protocol in the way that matches their conviction.
 
 ## The Problem
 
-DeFi is broken for token holders.
-
-Most protocols generate real revenue. But almost none of it flows back to the community in a structured, transparent, or token-specific way. Revenue gets pooled into treasuries, diluted by inflation, or routed to insiders. Token holders watch supply expand while value doesn't.
-
-The result: protocols that grow in usage but shrink in token value. Communities that stake to earn yield only to find the yield doesn't outpace dilution. Governance tokens that govern nothing and earn nothing.
+Most DeFi protocols distribute revenue generically — the same way to everyone, regardless of how they participate. Yield is diluted, inflation erodes value, and token holders have no way to express their conviction through the protocol's reward structure.
 
 ## The Solution
 
-Magnet Finance introduces **Magnetic Polarity Revenue Routing** — a novel mechanic that matches the *character* of each revenue stream to the *character* of each token.
+Magnet Finance introduces **Magnetic Polarity Revenue Routing** — a two-tier distribution system that routes revenue by character, matching each income stream to the token archetype that earned it.
 
-Swap fees belong to core utility token holders. LP yield belongs to volume-oriented positive polarity holders. Treasury yield belongs to long-duration scarcity holders.
+Three revenue streams. Three token polarities. One unified deflationary outcome.
 
-Every token earns from what it's designed for. No pooling. No dilution. No compromise.
+- **Every token holder earns** — the Base Layer distributes proportionally to all holders every weekly Magnetic Epoch, regardless of which token they hold
+- **Your polarity determines your upside** — Polarity Amplifiers route bonus revenue to the token type that matches the source
+- **All three token supplies compress simultaneously** — $MGNT, pMGNT, and nMGNT burn continuously, independent of each other
 
-## What Magnet Finance Is
+## What's Live on Solana Mainnet
 
-* A **liquid staking protocol** — stake SOL, receive mgntSOL, earn native Solana validator yield while staying liquid
-* A **swap hub** — Magnetic Swap routes through Jupiter v6 with a 30bps platform fee that flows to the treasury
-* A **liquidity engine** — concentrated liquidity on Meteora DLMM generates LP yield for the protocol
-* A **deflationary token system** — three tokens with simultaneous burn mechanics across all three
+| Feature | Status |
+|---------|--------|
+| $MGNT token | ✅ Live — `PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg` |
+| mgntSOL liquid staking (Sanctum) | ✅ Live — `mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK` |
+| Meteora DLMM pool (mgntSOL/SOL) | ✅ Live — 1bps base fee, dynamic fees enabled |
+| Magnetic Swap (Jupiter v6, 30bps) | ✅ Live at mgntfinance.com/swap |
+| Season 1 Genesis Points leaderboard | ✅ Live |
+| Treasury multisig (Squads + Ledger) | ✅ Live |
+| pMGNT and nMGNT minting | 🔜 Season 2 |
+| Weekly epoch distribution | 🔜 Post-TGE |
 
-## Core Design Principles
+## What You Can Do Today
 
-**Revenue matches token character.** Each revenue stream routes to the token type designed to benefit from it.
+- **Swap** tokens across Solana via Magnetic Swap at [mgntfinance.com/swap](https://mgntfinance.com/swap)
+- **Stake SOL** into mgntSOL and earn variable Solana staking yield
+- **Earn Season 1 Genesis Points** by holding mgntSOL — `balance × 10 pts/hr`
+- **Participate in the MGNT Presale** — four tiers from $0.10 to $0.25
 
-**Every holder earns something.** The Base Layer distribution ensures no token holder earns zero, regardless of which token they hold or whether they stake.
+## Key Links
 
-**Staking is always additive.** Staking $MGNT to receive pMGNT or nMGNT never sacrifices the base layer position — it adds a polarity amplifier on top.
-
-**Fifty percent of $MGNT supply is locked for 15 years.** No rug. No dump. No exit.
-
-## What You Can Do
-
-* Swap tokens across Solana through **Magnetic Swap** (live at mgntfinance.com/swap)
-* Stake SOL into **mgntSOL** and earn variable yield from Solana validators
-* Earn points on the **Season 1 Genesis** leaderboard by holding mgntSOL
-* Participate in the **MGNT Final Presale** (four-tier structure, details at mgntfinance.com)
-* Stake **$MGNT** in Season 2 to choose pMGNT or nMGNT polarity rewards
-
-## Community
-
-* X: [@MGNTFinance](https://twitter.com/MGNTFinance)
-* Telegram: [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
-* Website: [mgntfinance.com](https://mgntfinance.com)
+- **App:** [mgntfinance.com](https://mgntfinance.com)
+- **Telegram:** [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
+- **X:** [@MGNTFinance](https://twitter.com/MGNTFinance)
+- **GitHub:** [github.com/mgntfinance/MGNT-Token](https://github.com/mgntfinance/MGNT-Token)

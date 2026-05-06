@@ -1,49 +1,50 @@
----
-description: All on-chain addresses for Magnet Finance contracts, tokens, and infrastructure.
----
-
 # Contracts and Addresses
 
-## Token Mints
+All Magnet Finance on-chain addresses for reference. Every address is verified and active on Solana mainnet.
+
+---
+
+## Token Addresses
 
 | Token | Address | Network |
 |-------|---------|---------|
-| $MGNT | `PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg` | Solana Mainnet |
-| mgntSOL | `mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK` | Solana Mainnet |
+| **$MGNT** | `PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg` | Solana Mainnet |
+| **mgntSOL** | `mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK` | Solana Mainnet |
+| **pMGNT** | TBA — Season 2 | Solana Mainnet |
+| **nMGNT** | TBA — Season 2 | Solana Mainnet |
 
-## Protocol Infrastructure
+---
 
-| Component | Address |
-|-----------|---------|
-| Treasury / Update Authority | `MGNT3FLU58jFTuFisoHUGkVdzT2x5LnF68qMhgjJ3E7` |
-| Core Contributors Escrow | `62HjS598jzANCexVzkxjLmttXXLzyvNVmCc1BiJsggmJ` |
-| Jupiter Referral Account | `3zLDqUpbeRSUT7WhzL7pnVe7jCyPW5g8MFKJmv5MVP8y` |
-| Meteora DLMM Pool (mgntSOL/SOL) | `8j7Sk4Q8LcnadMf9T9TRBYePhJaouxi5K2tx3ZQRXDYo` |
+## Protocol Addresses
 
-## Explorers
+| Address | Purpose |
+|---------|---------|
+| `MGNT3FLU58jFTuFisoHUGkVdzT2x5LnF68qMhgjJ3E7` | Treasury wallet + update authority (Squads multisig) |
+| `62HjS598jzANCexVzkxjLmttXXLzyvNVmCc1BiJsggmJ` | Core contributors lock escrow (12mo cliff, 24mo vest) |
+| `8j7Sk4Q8LcnadMf9T9TRBYePhJaouxi5K2tx3ZQRXDYo` | Meteora DLMM pool (mgntSOL/SOL) |
+| `3zLDqUpbeRSUT7WhzL7pnVe7jCyPW5g8MFKJmv5MVP8y` | Jupiter referral account (30bps platform fee) |
 
-* **$MGNT on Solscan:** [solscan.io/token/PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg](https://solscan.io/token/PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg)
-* **mgntSOL on Solscan:** [solscan.io/token/mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK](https://solscan.io/token/mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK)
-* **Treasury on Solscan:** [solscan.io/account/MGNT3FLU58jFTuFisoHUGkVdzT2x5LnF68qMhgjJ3E7](https://solscan.io/account/MGNT3FLU58jFTuFisoHUGkVdzT2x5LnF68qMhgjJ3E7)
-* **Meteora Pool:** [app.meteora.ag/dlmm/8j7Sk4Q8LcnadMf9T9TRBYePhJaouxi5K2tx3ZQRXDYo](https://app.meteora.ag/dlmm/8j7Sk4Q8LcnadMf9T9TRBYePhJaouxi5K2tx3ZQRXDYo)
+---
 
-## Token Parameters
+## Infrastructure Partners
 
-### $MGNT
-* **Decimals:** 6
-* **Max Supply:** 36,900,000
-* **isMutable:** true (intentional — allows future metadata updates)
-* **Freeze Authority:** None
+| Partner | Role |
+|---------|------|
+| **Sanctum** | mgntSOL LST infrastructure |
+| **Meteora DLMM** | Concentrated liquidity for mgntSOL/SOL |
+| **Jupiter v6** | Swap aggregation via Magnetic Swap frontend |
+| **Squads Protocol** | Treasury multisig |
+| **Supabase** | Backend database (Season 1 points leaderboard) |
+| **Pinata/IPFS** | Token metadata storage |
 
-### mgntSOL
-* **Decimals:** 9
-* **Standard:** Sanctum LST standard
-* **isMutable:** true (intentional — allows future metadata updates)
+---
 
-## Metadata
+## Verification Links
 
-* **$MGNT metadata URI:** `https://purple-adverse-pony-836.mypinata.cloud/ipfs/bafkreidtppvninlmraag7urhhurili62we4mgeeuy6frlv4x4knfjxtike`
-
-{% hint style="info" %}
-**Telegram:** [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
-{% endhint %}
+| Item | Solscan |
+|------|---------|
+| $MGNT | [View on Solscan](https://solscan.io/token/PWFsq6a5LbtqpJfNSvNmchDqSnLB5hTA6mAr3Kj1qHg) |
+| mgntSOL | [View on Solscan](https://solscan.io/token/mgntr7GPnAM6g5cDYMAmjbLvNmbfG3cN1pjAvbnWVKK) |
+| Treasury | [View on Solscan](https://solscan.io/account/MGNT3FLU58jFTuFisoHUGkVdzT2x5LnF68qMhgjJ3E7) |
+| Contributors Lock | [View on Solscan](https://solscan.io/account/62HjS598jzANCexVzkxjLmttXXLzyvNVmCc1BiJsggmJ) |
+| Meteora Pool | [View on Solscan](https://solscan.io/account/8j7Sk4Q8LcnadMf9T9TRBYePhJaouxi5K2tx3ZQRXDYo) |

@@ -1,49 +1,65 @@
----
-description: Four tiers. One opportunity to enter before TGE. Details at mgntfinance.com.
----
-
 # MGNT Final Presale
 
-The MGNT Final Presale is the last opportunity to acquire $MGNT before the Token Generation Event. It is structured across four tiers, each with a different price point and wallet cap — rewarding the earliest and most committed participants.
+The MGNT Final Presale is the last opportunity to acquire $MGNT before the Token Generation Event. Four tiers. Fixed prices. Structured vesting. A total of 3,690,000 $MGNT — 10% of the total supply — is available across all tiers.
+
+---
 
 ## Presale Structure
 
-| Tier | Price | Presale Allocation | Wallet Cap | Vesting |
-|------|-------|-------------------|-----------|---------|
-| Genesis | $0.10 | 15% (553,500 MGNT) | $500 | 10% at TGE + 9-month vest |
-| Community | $0.15 | 25% (922,500 MGNT) | $1,500 | 15% at TGE + 6-month vest |
-| Whitelist | $0.20 | 30% (1,107,000 MGNT) | $2,500 | 20% at TGE + 3-month vest |
-| Public | $0.25 | 30% (1,107,000 MGNT) | $10,000 | 25% at TGE + 3-month vest |
+| Tier | Price | Allocation | Wallet Cap | TGE Unlock | Vesting |
+|------|-------|-----------|-----------|------------|---------|
+| **Genesis** | $0.10 | 15% (553,500 MGNT) | $500 | 10% at TGE | 9 months linear |
+| **Community** | $0.15 | 25% (922,500 MGNT) | $1,500 | 15% at TGE | 6 months linear |
+| **Whitelist** | $0.20 | 30% (1,107,000 MGNT) | $2,500 | 20% at TGE | 4 months linear |
+| **Public** | $0.25 | 30% (1,107,000 MGNT) | $10,000 | 25% at TGE | 3 months linear |
 
-**Total presale supply:** 3,690,000 $MGNT (10% of max supply)  
-**Total raise target:** ~$691,875  
-**Blended average price:** ~$0.188  
-**Implied FDV at TGE:** ~$6.93M  
+---
 
-## Infrastructure
+## Key Metrics
 
-The presale is conducted through a **Meteora presale vault** — an on-chain, non-custodial mechanism that ensures all participant funds are secured and verifiable on Solana mainnet from the moment of deposit.
+| Metric | Value |
+|--------|-------|
+| Total presale supply | 3,690,000 $MGNT (10% of max supply) |
+| Blended average price | ~$0.188 |
+| Total raise target | ~$691,875 |
+| Implied FDV at public price | ~$6.93M |
+| Infrastructure | Meteora presale vault |
 
-## Vesting
+---
 
-All presale tiers include a vesting schedule to ensure alignment between early participants and the long-term health of the protocol. The earlier the tier, the longer the vest — and the lower the price.
+## Why Participate
 
-Genesis tier participants accept the longest vest in exchange for the lowest price. Public tier participants accept the shortest vest at the highest presale price.
+**Genesis and Community tier holders receive the lowest price in the protocol's history.** After TGE, $MGNT trades freely on the open market. Presale participants lock in their price before any public price discovery.
 
-There are no team tokens in the presale. The Core Contributors allocation (50% of max supply) is locked separately in an on-chain escrow with a 12-month cliff and 24-month linear vest.
+Every presale tier holder earns from the protocol immediately at TGE:
+- Base layer revenue distribution every weekly Magnetic Epoch
+- Swap fee amplifier earnings as $MGNT holders
+- Eligible for Polarity Amplifier earnings upon staking in Season 2
 
-## How to Participate
+---
 
-Presale details and participation instructions are available at [mgntfinance.com](https://mgntfinance.com).
+## Vesting Design
 
-Join the community for updates:
-* Telegram: [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
-* X: [@MGNTFinance](https://twitter.com/MGNTFinance)
+Vesting schedules are structured to protect protocol health while rewarding early participants:
 
-## Post-Presale: $MGNT TGE
+- Shorter vesting at higher tiers — Public tier participants unlock faster because they paid closer to market price
+- All tiers receive meaningful TGE unlock — no participant is fully locked at launch
+- Linear vesting prevents cliff dumps and aligns incentives with long-term protocol growth
 
-Following presale completion, $MGNT launches for open trading. Target TGE date: **June 21, 2026** (summer solstice). At TGE, Season 2 activates — including pMGNT and nMGNT minting, Magnetic Staking, and the first Weekly Magnetic Epoch distribution.
+---
 
-{% hint style="info" %}
-**Telegram:** [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
-{% endhint %}
+## Participation
+
+Presale details and participation instructions are announced through official channels:
+
+- **Telegram:** [t.me/MGNTFinancePublic](https://t.me/MGNTFinancePublic)
+- **X:** [@MGNTFinance](https://twitter.com/MGNTFinance)
+- **Website:** [mgntfinance.com](https://mgntfinance.com)
+
+> Only participate through official channels. Magnet Finance will never DM you first asking for funds.
+
+---
+
+## Legal
+
+Participation in the MGNT presale does not constitute an investment contract or the purchase of a security. $MGNT is a utility and governance token. Nothing in this document constitutes financial advice. Participation carries risk. Always do your own research.
