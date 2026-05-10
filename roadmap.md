@@ -50,9 +50,9 @@ Everything below is deployed and operational on Solana mainnet today:
 
 | Feature | Description |
 |---------|-------------|
-| **Sui expansion** | Magnetic Swap and token deployment on Sui |
-| **EVM expansion** | Cross-chain swap via aggregator SDK (Li.Fi, Rango, or Squid Router) |
-| **Wormhole bridge** | Native cross-chain asset bridging (Season 2 target) |
+| **Bitcoin** | Cross-chain bridging into Solana for value capture via aggregator SDK |
+| **EVM** | Cross-chain bridging into Solana for value capture via aggregator SDK (Li.Fi, Rango, or Squid Router) |
+| **Sui** | Cross-chain bridging into Solana for value capture via aggregator SDK |
 | **Business incorporation** | Federal CCPC via Corporations Canada + BC extra-provincial registration |
 
 ---
